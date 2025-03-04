@@ -7,3 +7,5 @@ After installing the LinkToDo Chrome extension, right-click any hyperlink and ch
 A 'LinkToDo' folder will be added your bookmarks. Within that, two sub-folders: 'ToDo' and 'Done. Links are added to the 'ToDo' folder.
 
 Links on a webpage that have been added will show a checkbox to visually indicate that it's on your 'To Do' list. Check/tick the box to move it to your 'Done' list. 
+
+![LinkToDo Screenshot](https://github.com/user-attachments/assets/a216b0a1-0e52-4379-81d0-698600d53210)
