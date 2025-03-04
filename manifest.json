@@ -1,0 +1,29 @@
+{
+  "name": "LinkToDo",
+  "description": "Use links as ToDos in your Bookmarks",
+  "version": "1.0",
+  "manifest_version": 3,
+  "permissions": ["activeTab","bookmarks", "contextMenus"],
+  "action": {
+    "default_title": "LinkToDo",
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "css": ["style.css"],
+      "js": ["content.js"],
+      "matches": [
+        "https://*/*"
+      ]
+    }
+  ],
+  "background": {
+    "service_worker": "service-worker.js"
+  },
+  "icons": {
+    "16": "images/icon-16.png",
+    "48": "images/icon-48.png",
+    "128": "images/icon-128.png"
+  }
+}

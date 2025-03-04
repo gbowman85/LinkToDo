@@ -1,0 +1,12 @@
+body {
+  width: 400px;
+  min-height: 150px;
+}
+
+#editdialog input {
+  width: 100%;
+}
+
+#add-todo {
+  display: inline-block;
+}
